@@ -1,0 +1,22 @@
+{
+    "name": "savvym/chatgpt",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Savvym\\Chatgpt\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "savvym",
+            "email": "savvy.chn@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2",
+        "mockery/mockery": "^1.6"
+    }
+}
