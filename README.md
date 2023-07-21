@@ -24,7 +24,6 @@ use Savvym\Chatgpt\History\FileHistory;
 $key = 'xxxxxxxxxxxxx';
 $history = new FileHistory('./data/cache.php');
 $c = new ChatGPT($key, $history);
-$res = $c->chat('你好');
 $res = $c->chat('做一首诗');
 $res = $c->chat('翻译前面的话');
 ```
